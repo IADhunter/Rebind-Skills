@@ -1,0 +1,18 @@
+D:\Documentos\RW mods\TemplateMod-master\mod\newest\plugins\rebindskills.dll
+D:\Documentos\RW mods\TemplateMod-master\mod\newest\plugins\rebindskills.pdb
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Debug\rebindskills.csproj.AssemblyReference.cache
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Debug\rebindskills.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Debug\rebindskills.AssemblyInfoInputs.cache
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Debug\rebindskills.AssemblyInfo.cs
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Debug\rebindskills.csproj.CoreCompileInputs.cache
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Debug\rebindskills.dll
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Debug\rebindskills.pdb
+D:\Documentos\RW mods\Rebind Skills\mod\newest\plugins\rebindskills.dll
+D:\Documentos\RW mods\Rebind Skills\mod\newest\plugins\rebindskills.pdb
+D:\Documentos\RW mods\Rebind Skills\src\obj\Debug\rebindskills.csproj.AssemblyReference.cache
+D:\Documentos\RW mods\Rebind Skills\src\obj\Debug\rebindskills.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\RW mods\Rebind Skills\src\obj\Debug\rebindskills.AssemblyInfoInputs.cache
+D:\Documentos\RW mods\Rebind Skills\src\obj\Debug\rebindskills.AssemblyInfo.cs
+D:\Documentos\RW mods\Rebind Skills\src\obj\Debug\rebindskills.csproj.CoreCompileInputs.cache
+D:\Documentos\RW mods\Rebind Skills\src\obj\Debug\rebindskills.dll
+D:\Documentos\RW mods\Rebind Skills\src\obj\Debug\rebindskills.pdb

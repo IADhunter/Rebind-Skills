@@ -1,0 +1,7 @@
+D:\Documentos\RW mods\TemplateMod-master\mod\newest\plugins\rebindskills.dll
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Release\rebindskills.csproj.AssemblyReference.cache
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Release\rebindskills.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Release\rebindskills.AssemblyInfoInputs.cache
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Release\rebindskills.AssemblyInfo.cs
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Release\rebindskills.csproj.CoreCompileInputs.cache
+D:\Documentos\RW mods\TemplateMod-master\src\obj\Release\rebindskills.dll
