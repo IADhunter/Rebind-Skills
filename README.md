@@ -1,0 +1,1 @@
+Rebind Skills is a mod that allows you to assign macros to some complex movements to facilitate mobility. it was designed to facilitate these movements on the controller but works perfectly on the keyboard.
