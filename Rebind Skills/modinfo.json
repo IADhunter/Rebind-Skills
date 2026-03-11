@@ -1,0 +1,11 @@
+﻿{
+  "id": "rebindskills",
+  "name": "Rebind Skills",
+  "version": "1.0.0",
+  "authors": "IADhunter",
+  "description": "Why try to destroy your joystick when you can just press a button?",
+  "tags": ["Tools", "Input"],
+  "requirements": ["improved-input-config"],
+  "requirements_names": ["Improved Input Config: Extended"],
+  "checksum_override_version": false
+}
