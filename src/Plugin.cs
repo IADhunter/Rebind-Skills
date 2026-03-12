@@ -35,31 +35,31 @@ sealed class Plugin : BaseUnityPlugin
         {
             KeyFastPoleL = PlayerKeybind.Register(
                 "rebindskills:fastpole_l", "Rebind Skills", "Pole FL",
-                KeyCode.U, KeyCode.None);
+                KeyCode.None, KeyCode.None);
             KeyFastPoleR = PlayerKeybind.Register(
                 "rebindskills:fastpole_r", "Rebind Skills", "Pole FR",
-                KeyCode.I, KeyCode.None);
+                KeyCode.None, KeyCode.None);
 
             KeySlideSpinL = PlayerKeybind.Register(
                 "rebindskills:slidespin_l", "Rebind Skills", "Slide SL",
-                KeyCode.K, KeyCode.None);
+                KeyCode.None, KeyCode.None);
             KeySlideSpinR = PlayerKeybind.Register(
                 "rebindskills:slidespin_r", "Rebind Skills", "Slide SR",
-                KeyCode.L, KeyCode.None);
+                KeyCode.None, KeyCode.None);
 
             KeyExSlideL = PlayerKeybind.Register(
                 "rebindskills:extendedslide_l", "Rebind Skills", "Slide EXL",
-                KeyCode.O, KeyCode.None);
+                KeyCode.None, KeyCode.None);
             KeyExSlideR = PlayerKeybind.Register(
                 "rebindskills:extendedslide_r", "Rebind Skills", "Slide EXR",
-                KeyCode.P, KeyCode.None);
+                KeyCode.None, KeyCode.None);
 
             KeySlidePoL = PlayerKeybind.Register(
                 "rebindskills:slidepo_l", "Rebind Skills", "Slide PL",
-                KeyCode.J, KeyCode.None);
+                KeyCode.None, KeyCode.None);
             KeySlidePoR = PlayerKeybind.Register(
                 "rebindskills:slidepo_r", "Rebind Skills", "Slide PR",
-                KeyCode.H, KeyCode.None);
+                KeyCode.None, KeyCode.None);
         }
         catch
         {
@@ -74,7 +74,11 @@ sealed class Plugin : BaseUnityPlugin
         _isInit = true;
 
         On.RWInput.PlayerInputLogic_int_int += (orig, cat, num) =>
-            SkillManager.UpdateInput(orig(cat, num), num);
+        {
+            var result = orig(cat, num);
+            if (cat != 0) return result;
+            return SkillManager.UpdateInput(result, num);
+        };
     }
 
     private bool JustPressed(PlayerKeybind key, int player, int slot)

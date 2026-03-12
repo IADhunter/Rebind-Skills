@@ -1,7 +1,7 @@
 ﻿{
   "id": "rebindskills",
   "name": "Rebind Skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": "IADhunter",
   "description": "Why try to destroy your joystick when you can just press a button?",
   "tags": ["Tools", "Input"],

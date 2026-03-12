@@ -28,3 +28,4 @@ D:\Documentos\GitHub\Rebind-Skills\src\obj\Debug\rebindskills.dll
 D:\Documentos\GitHub\Rebind-Skills\src\obj\Debug\rebindskills.pdb
 D:\Documentos\GitHub\Rebind-Skills\Rebind Skills\plugins\rebindskills.dll
 D:\Documentos\GitHub\Rebind-Skills\Rebind Skills\plugins\rebindskills.pdb
+D:\Documentos\GitHub\Rebind-Skills\src\obj\Debug\rebindskills.sourcelink.json
