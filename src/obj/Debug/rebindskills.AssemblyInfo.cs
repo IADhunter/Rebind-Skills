@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("rebindskills")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abf9f02791941dc40d4cc6661dbdae4d8ea21dda")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61aeca3e62487372213da600b05119cc80902a07")]
 [assembly: System.Reflection.AssemblyProductAttribute("rebindskills")]
 [assembly: System.Reflection.AssemblyTitleAttribute("rebindskills")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

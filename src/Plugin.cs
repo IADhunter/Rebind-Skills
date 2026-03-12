@@ -62,9 +62,7 @@ sealed class Plugin : BaseUnityPlugin
                 KeyCode.None, KeyCode.None);
         }
         catch
-        {
-            Debug.LogWarning("[RebindSkills] Improved Input Config no encontrado.");
-        }
+        {}
     }
 
     private void OnModsInit(On.RainWorld.orig_OnModsInit orig, RainWorld self)

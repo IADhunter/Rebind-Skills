@@ -26,10 +26,7 @@ namespace RebindSkills
 
             _currentSkill[playerNumber] = Skill;
             _counter[playerNumber] = 0;
-
             _lastInputX[playerNumber] = Skill.Direction * -1;
-            
-            Debug.Log($"[RebindSkills] START P{playerNumber}: {Skill.GetType().Name}");
         }
 
         public static void StopSkill(int playerNumber)
@@ -52,7 +49,6 @@ namespace RebindSkills
 
                 if (justPressedOpposite)
                 {
-                    Debug.Log($"[RebindSkills] CANCELLED P{playerNumber} (reconfirmación)");
                     StopSkill(playerNumber);
                     _lastInputX[playerNumber] = input.x;
                     return input;
@@ -71,10 +67,7 @@ namespace RebindSkills
             _counter[playerNumber]++;
 
             if (_counter[playerNumber] >= _currentSkill[playerNumber].MaxFrames)
-            {
-                Debug.Log($"[RebindSkills] FINISH P{playerNumber}");
                 StopSkill(playerNumber);
-            }
 
             return result;
         }
